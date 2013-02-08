@@ -8,9 +8,10 @@ set nocompatible
 " ==== Pathogen Initialization ====
 " Use pathogen to easily modify the runtime path to include all
 " plugins under the ~/.vim/bundle directory
-execute pathogen#infect()
-call pathogen#helptags()
-call pathogen#runtime_append_all_bundles()
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
+"call pathogen#helptags()
+"call pathogen#runtime_append_all_bundles()
 
 " ========== General Config ==========
 set ruler                           " Show cursor position
