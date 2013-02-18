@@ -10,6 +10,8 @@ Personal repository for managing my Vim confiugration across multiple hosts.
     ln -s .vim/vimrc .vimrc
     cd .vim
     git submodule update --init
+    cd ~
+    
     
 ***Windows:***
 
